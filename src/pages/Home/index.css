@@ -1,0 +1,28 @@
+.custom-rounded {
+    border-top-left-radius: 220px;
+    border-top-right-radius: 180px;
+    border-bottom-right-radius: 220px;
+    border-bottom-left-radius: 180px;
+}
+
+.custom-rounded2 {
+    border-top-left-radius: 200px;
+    border-top-right-radius: 255px;
+    border-bottom-right-radius: 180px;
+    border-bottom-left-radius: 255px;
+}
+
+.custom-rounded3 {
+    border-top-left-radius: 200px;
+    border-top-right-radius: 255px;
+    border-bottom-right-radius: 255px;
+    border-bottom-left-radius: 255px;
+}
+
+.custom-rounded4 {
+    border-top-left-radius: 180px;
+    border-top-right-radius: 120px;
+    border-bottom-right-radius: 150px;
+    border-bottom-left-radius: 130px;
+}
+
