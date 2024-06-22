@@ -1,18 +1,19 @@
 import './story.css'
+import image from '../../config/images'
 
 export default function Story() {
     return (
         <div className="storybody">
-            <img src="../../assets/media/story/combin/color block/網頁素材_農場故事-色塊1.png" alt="" />
-            <img src="../../assets/media/story/combin/color block/網頁素材_農場故事-色塊2.png" alt="" />
+            <img src={image.color1} alt="" />
+            <img src={image.color2} alt="" />
             <div className="container">
                 <section className="family">
                     <div className="title">
-                        <img src="../../assets/media/story/標題底圖.png" alt="" />
+                        <img src={image.titleBg} alt="" />
                         家族故事
                     </div>
                     <div className="content">
-                        <img src="../../assets/media/story/工作區域 1.png" alt="" />
+                        <img src={image.workSpace1} alt="" />
                         <div className="text">
                             四季紅農場座落在雲林四湖，由吳家兄弟互相維護的小型有機農場。<br /><br />
                             最初是以室外作物（西瓜、蒜頭、花生）為主，後來受到六輕工業區空汙的影響，導致作物經常腐爛，在縣政府的補助下，開始轉型到溫室作業，也在朋友的協助下開始研究種植小番茄，並且一直維持到現在。<br /><br />
@@ -20,39 +21,39 @@ export default function Story() {
                         </div>
                     </div>
                     <div className="bro">
-                        <img src="../../assets/media/story/hello.png" alt="" />
-                        <img src="../../assets/media/story/我們是吳家三兄弟.png" alt="" />
+                        <img src={image.hello} alt="" />
+                        <img src={image.bors} alt="" />
                     </div>
                     <div className="bro_intro">
                         <div>
-                            <img src="../../assets/media/story/combin/網頁素材_家族故事-大哥.png" alt="" />
+                            <img src={image.bor1} alt="" />
                             <div className="bro_text">
-                                <img src="../../assets/media/story/插圖1.png" alt="" />
+                                <img src={image.pic1} alt="" />
                                 大哥<br />江湖人稱「漢哥」
-                                <img src="../../assets/media/story/插圖2.png" alt="" />
+                                <img src={image.pic2} alt="" />
                             </div>
                         </div>
                         <div>
-                            <img src="../../assets/media/story/combin/網頁素材_家族故事-二哥.png" alt="" />
+                            <img src={image.bor2} alt="" />
                             <div className="bro_text">
-                                <img src="../../assets/media/story/插圖1.png" alt="" />
+                                <img src={image.pic1} alt="" />
                                 二哥<br />江湖人稱「興哥」
-                                <img src="../../assets/media/story/插圖2.png" alt="" />
+                                <img src={image.pic2} alt="" />
                             </div>
                         </div>
                         <div>
-                            <img src="../../assets/media/story/combin/網頁素材_家族故事-三弟.png" alt="" />
+                            <img src={image.bor3} alt="" />
                             <div className="bro_text">
-                                <img src="../../assets/media/story/插圖1.png" alt="" />
+                                <img src={image.pic1} alt="" />
                                 三弟<br />江湖人稱「阿昭」
-                                <img src="../../assets/media/story/插圖2.png" alt="" />
+                                <img src={image.pic2} alt="" />
                             </div>
                         </div>
                     </div>
                 </section>
                 <section className="special">
                     <div className="title">
-                        <img src="../../assets/media/story/標題底圖.png" alt="" />
+                        <img src={image.titleBg} alt="" />
                         農場特色
                     </div>
                     <div className="text">
@@ -63,25 +64,25 @@ export default function Story() {
                     </div>
                     <div className="bro_intro">
                         <div>
-                            <img src="../../assets/media/story/combin/網頁素材_農場特色1.png" alt="" />
+                            <img src={image.special1} alt="" />
                             <div className="bro_text">
                                 濕室管理，滴灌系統
                             </div>
                         </div>
                         <div>
-                            <img src="../../assets/media/story/combin/網頁素材_農場特色2.png" alt="" />
+                            <img src={image.special2} alt="" />
                             <div className="bro_text">
                                 沿海土壤，口味更佳
                             </div>
                         </div>
                         <div>
-                            <img src="../../assets/media/story/combin/網頁素材_農場特色3.png" alt="" />
+                            <img src={image.special3} alt="" />
                             <div className="bro_text">
                                 純天然，無加工
                             </div>
                         </div>
                         <div>
-                            <img src="../../assets/media/story/combin/網頁素材_農場特色4.png" alt="" />
+                            <img src={image.special4} alt="" />
                             <div className="bro_text">
                                 在地生產，新鮮直送
                             </div>
@@ -90,23 +91,23 @@ export default function Story() {
                 </section>
                 <section className="process">
                     <div className="title">
-                        <img src="../../assets/media/story/標題底圖.png" alt="" />
+                        <img src={image.titleBg} alt="" />
                         栽種過程
                     </div>
                     <div>
-                        <img src="../../assets/media/story/栽種過程.png" alt="" className="process_img" />
+                        <img src={image.paint} alt="" className="process_img" />
                     </div>
                 </section>
                 <section className="tips">
                     <div className="title">
-                        <img src="../../assets/media/story/標題底圖.png" alt="" />
+                        <img src={image.titleBg} alt="" />
                         番茄小知識
                     </div>
                     <div className="tips_content">
                         <div className="bro_text">
-                            <img src="../../assets/media/story/插圖1.png" alt="" />
+                            <img src={image.pic1} alt="" />
                             番茄是蔬菜還是水果？
-                            <img src="../../assets/media/story/插圖2.png" alt="" />
+                            <img src={image.pic2} alt="" />
                         </div>
                         <div className="text">
                             在台灣學術統計上，番茄被定義為蔬菜，<br />
@@ -115,7 +116,7 @@ export default function Story() {
                         </div>
                     </div>
                     <div className="tips_img">
-                        <img src="../../assets/media/story/番茄小知識.png" alt="" />
+                        <img src={image.tips} alt="" />
                     </div>
                     <div className="intro">
                         <div style={{ width: '44%', padding: '0 20px' }}>
@@ -150,7 +151,7 @@ export default function Story() {
                         <div style={{ width: '1px', backgroundColor: '#B02F2E' }}>
                             <hr />
                         </div>
-                        <div style={{ width: '54%', padding: '0 20px', height: '200px' }}>
+                        <div style={{ width: '60%', padding: '0 20px', height: '200px' }}>
                             <div className="little_title">
                                 蕃茄有停心、半停心與不停心之分
                             </div>
@@ -188,11 +189,11 @@ export default function Story() {
                 </section>
                 <section className="month">
                     <div className="title">
-                        <img src="../../assets/media/story/標題底圖.png" alt="" />
+                        <img src={image.titleBg} alt="" />
                         本月日誌
                     </div>
                     <div className="content">
-                        <img src="../../assets/media/story/本月日誌.jpg" alt="" />
+                        <img src={image.month} alt="" />
                         <div>
                             <div className="text">
                                 經過半年的活，終於來到了番茄產季尾聲，這是波農場第一年忙著利用網站販賣水果，
@@ -208,25 +209,25 @@ export default function Story() {
                 </section>
                 <section className="collection">
                     <div className="title">
-                        <img src="../../assets/media/story/標題底圖.png" alt="" />
+                        <img src={image.titleBg} alt="" />
                         本月合集
                     </div>
                     <div className="content">
                         <div className="row">
                             <div>
-                                <img src="../../assets/media/story/本月合集-1.jpg" alt="" />
+                                <img src={image.month1} alt="" />
                                 <div className="view_more">
                                     查看更多
                                 </div>
                             </div>
                             <div>
-                                <img src="../../assets/media/story/本月合集-2.jpg" alt="" />
+                                <img src={image.month2} alt="" />
                                 <div className="view_more">
                                     查看更多
                                 </div>
                             </div>
                             <div>
-                                <img src="../../assets/media/story/本月合集-3.jpg" alt="" />
+                                <img src={image.month3} alt="" />
                                 <div className="view_more">
                                     查看更多
                                 </div>
@@ -234,19 +235,19 @@ export default function Story() {
                         </div>
                         <div className="row">
                             <div>
-                                <img src="../../assets/media/story/本月合集-1.jpg" alt="" />
+                                <img src={image.month4} alt="" />
                                 <div className="view_more">
                                     查看更多
                                 </div>
                             </div>
                             <div>
-                                <img src="../../assets/media/story/本月合集-2.jpg" alt="" />
+                                <img src={image.month5} alt="" />
                                 <div className="view_more">
                                     查看更多
                                 </div>
                             </div>
                             <div>
-                                <img src="../../assets/media/story/本月合集-3.jpg" alt="" />
+                                <img src={image.month6} alt="" />
                                 <div className="view_more">
                                     查看更多
                                 </div>
