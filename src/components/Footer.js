@@ -3,7 +3,7 @@ import image from '../config/images'
 
 export default function Header() {
     return (
-        <div className='absolute z-99'>
+        <div className='absolute z-0'>
             <img src={image.footer} />
         </div>
     );

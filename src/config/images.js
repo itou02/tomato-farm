@@ -41,7 +41,13 @@ const images = {
 
     
 
-    footer: require('../assets/footer.png'),
+    pqa: require('../assets/Q&A1.png'),
+    pus: require('../assets/contact1.png'),
+    pgood: require('../assets/goods1.png'),
+    porder: require('../assets/order.png'),
+    porderD: require('../assets/orderDetail.png'),
+
+    footer: require('../assets/footer1.png'),
 };
 
 export default images;
