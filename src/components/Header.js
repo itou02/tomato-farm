@@ -12,14 +12,14 @@ export default function Header() {
     return (
         <div className='flex flex-col h-[25%] gap-2'>
             <div className='py-2 h-[80%]'>
-                <a href='/tomato-farm' >
+                <a href='/' >
                     <img src={image.logo} className='h-full mx-auto' />
                 </a>
 
             </div>
             <div className='w-[60%] h-[20%] mx-auto'>
                 <div className='flex h-full align-middle'>
-                    {isActiveRoute('/tomato-farm')
+                    {isActiveRoute('/')
                         ?
                         <div className='flex mx-auto gap-6'>
                             <img src={image.pressedL} className='' />

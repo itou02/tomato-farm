@@ -16,7 +16,7 @@ function Router() {
         <BrowserRouter>
             <Header />
             <Routes>
-                <Route path="/tomato-farm/" element={<Home />} />
+                <Route path="/tomato-farm" element={<Home />} />
                 <Route path="/tomato-farm/farm-story" element={<Story />} /> 
                 <Route path="/tomato-farm/products" element={<Prod />} />
                 <Route path="/tomato-farm/questions" element={<FaQ />} />
