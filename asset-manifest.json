@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tomato-farm/static/css/main.f3345f6c.css",
-    "main.js": "/tomato-farm/static/js/main.21b87ffd.js",
+    "main.js": "/tomato-farm/static/js/main.0539881f.js",
     "static/js/453.78d9a473.chunk.js": "/tomato-farm/static/js/453.78d9a473.chunk.js",
     "static/media/sh-1.jpg": "/tomato-farm/static/media/sh-1.e245de434ad786a6021f.jpg",
     "static/media/farm-1.jpg": "/tomato-farm/static/media/farm-1.65222dbe09ebb7a6bb6f.jpg",
@@ -66,11 +66,11 @@
     "static/media/search.png": "/tomato-farm/static/media/search.0ca02d0cd1c05c4d90c4.png",
     "index.html": "/tomato-farm/index.html",
     "main.f3345f6c.css.map": "/tomato-farm/static/css/main.f3345f6c.css.map",
-    "main.21b87ffd.js.map": "/tomato-farm/static/js/main.21b87ffd.js.map",
+    "main.0539881f.js.map": "/tomato-farm/static/js/main.0539881f.js.map",
     "453.78d9a473.chunk.js.map": "/tomato-farm/static/js/453.78d9a473.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f3345f6c.css",
-    "static/js/main.21b87ffd.js"
+    "static/js/main.0539881f.js"
   ]
 }
