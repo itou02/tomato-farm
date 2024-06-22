@@ -17,13 +17,13 @@ function Router() {
             <Header />
             <Routes>
                 <Route path="/tomato-farm/" element={<Home />} />
-                <Route path="/farm-story" element={<Story />} /> 
-                <Route path="/products" element={<Prod />} />
-                <Route path="/questions" element={<FaQ />} />
-                <Route path="/order" element={<Order />} />
-                <Route path="/order-detail" element={<OrderDetail />} /> 
-                <Route path="/goods" element={<Goods />} />
-                <Route path="/contact-us" element={<Contact />} />
+                <Route path="/tomato-farm/farm-story" element={<Story />} /> 
+                <Route path="/tomato-farm/products" element={<Prod />} />
+                <Route path="/tomato-farm/questions" element={<FaQ />} />
+                <Route path="/tomato-farm/order" element={<Order />} />
+                <Route path="/tomato-farm/order-detail" element={<OrderDetail />} /> 
+                <Route path="/tomato-farm/goods" element={<Goods />} />
+                <Route path="/tomato-farm/contact-us" element={<Contact />} />
             </Routes>
             <Footer />
         </BrowserRouter>
