@@ -17,13 +17,13 @@ function Router() {
             <Header />
             <Routes>
                 <Route path="/tomato-farm/" element={<Home />} />
-                <Route path="/tomato-farm/farm-story" element={<Story />} /> 
-                <Route path="/tomato-farm/products" element={<Prod />} />
-                <Route path="/tomato-farm/questions" element={<FaQ />} />
-                <Route path="/tomato-farm/order" element={<Order />} />
-                <Route path="/tomato-farm/order-detail" element={<OrderDetail />} /> 
-                <Route path="/tomato-farm/goods" element={<Goods />} />
-                <Route path="/tomato-farm/contact-us" element={<Contact />} />
+                <Route path="https://itou02.github.io/tomato-farm/farm-story" element={<Story />} /> 
+                <Route path="https://itou02.github.io/products" element={<Prod />} />
+                <Route path="https://itou02.github.io/questions" element={<FaQ />} />
+                <Route path="https://itou02.github.io/order" element={<Order />} />
+                <Route path="https://itou02.github.io/order-detail" element={<OrderDetail />} /> 
+                <Route path="https://itou02.github.io/goods" element={<Goods />} />
+                <Route path="https://itou02.github.io/contact-us" element={<Contact />} />
             </Routes>
             <Footer />
         </BrowserRouter>
