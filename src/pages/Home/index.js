@@ -205,7 +205,7 @@ export default function Home() {
                         <img src={image.hmap} className='custom-rounded4 '/>
                     </div>
                 </div>
-
+                
             </div>
         </div>
     );

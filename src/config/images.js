@@ -39,6 +39,8 @@ const images = {
     hto: require('../assets/home/tomato.jpg'),
     hline: require('../assets/home/line.png'),
 
+    
+
     footer: require('../assets/footer.png'),
 };
 
