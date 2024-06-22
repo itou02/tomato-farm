@@ -30,7 +30,7 @@
 
     .title {
         position: absolute;
-        top: -4270px;
+        top: -4670px;
         left: 50%;
         /* ↓ X軸 Y軸 */
         translate: -50% 0%;
@@ -49,7 +49,7 @@
 
     .content {
         position: absolute;
-        top: -4185px;
+        top: -4585px;
         left: 50%;
         translate: -50% 0%;
 
@@ -82,7 +82,7 @@
 
     .bro {
         position: absolute;
-        top: -3740px;
+        top: -4140px;
         left: 50%;
         translate: -50% 0%;
 
@@ -103,7 +103,7 @@
 
     .bro_intro {
         position: absolute;
-        top: -3670px;
+        top: -4070px;
         left: 50%;
         translate: -50% 0%;
 
@@ -141,7 +141,7 @@
 
     .title {
         position: absolute;
-        top: -3100px;
+        top: -3500px;
         left: 50%;
         translate: -50% 0%;
 
@@ -159,7 +159,7 @@
 
     .text {
         position: absolute;
-        top: -3100px;
+        top: -3500px;
         margin-top: 100px;
         line-height: 40px;
         text-align: center;
@@ -168,7 +168,7 @@
 
     .bro_intro {
         position: absolute;
-        top: -2800px;
+        top: -3200px;
         left: 50%;
         translate: -50% 0%;
 
@@ -199,7 +199,7 @@
 
     .title {
         position: absolute;
-        top: -2525px;
+        top: -2850px;
         left: 50%;
         translate: -50% 0%;
 
@@ -217,7 +217,7 @@
 
     .process_img {
         position: absolute;
-        top: -2425px;
+        top: -2725px;
         z-index: 20;
         /* margin-top: 300px; */
     }
@@ -342,7 +342,7 @@
             margin: 30px 40px 30px 0px;
             width: 150px;
             height: fit-content;
-            padding: 50px 0;
+            padding: 30px 50px;
             font-size: 20px;
             border-radius: 100px;
             color: #B02F2E;
@@ -398,7 +398,7 @@
 
     .title {
         position: absolute;
-        top: -70px;
+        top: 15%;
         left: 50%;
         translate: -50% 0%;
 
@@ -418,7 +418,7 @@
         display: flex;
         width: 90%;
         margin: auto;
-        padding-top: 70px;
+        padding-top: 150px;
 
         img {
             top: 0;
